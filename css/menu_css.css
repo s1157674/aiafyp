@@ -1,0 +1,51 @@
+#div1{
+    float: left;
+    width: 30%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: solid 1px;
+}
+._table{
+     width: 90%;
+     margin: 0 auto;
+     border-spacing:6px ;
+     padding-top: 30px;
+}
+._table td{
+    border: solid black 2px;
+    background:#bce8f1;
+    text-align: center;
+}
+._table td a{
+    text-decoration:none;
+}
+#div2{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 90%;
+    border: solid 1px;
+}
+#div2_1{
+    width: 95%;
+    margin: 0 auto;
+    border: solid 1px blue;
+    height: 300px;
+    overflow-y: scroll;
+}
+#div2_2{
+    width: 95%;
+    margin: 0 auto;
+    border: solid 1px blue;
+    overflow-x:scroll ;
+
+}
+#div2_3{
+    width: 95%;
+    margin: 0 auto;
+    border: solid 1px blue;
+
+}
+

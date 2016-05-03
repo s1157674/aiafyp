@@ -1,0 +1,256 @@
+
+    * {margin: 0; padding: 0; }
+    
+    .price_block {
+        width: 100%; 
+        float: left; 
+        list-style-type: none; 
+    } 
+    .features li {
+        font-weight: bold;
+        height: 10px;
+        padding: 15px 10px;
+        font-size: 20px; 
+        list-style-type: none;
+    }
+    .price_block{
+        background: #e9e9e9;
+        margin: 5px 0;
+        border-bottom: 1px solid #ccc; 
+    }
+    .price_block:hover{
+        background: #e0e0e0;
+    }
+/*option button*/   
+.col-md-3 button{
+	width:246px; 
+	height:40px; 
+	color:#4C4C4C; 
+	margin-bottom:20px; 
+}
+        
+#FormName{
+    text-align:left;
+    border-bottom:1px dotted #D9D9D9;
+    background-color: #F7F7F7;
+} 
+#FormName:hover{
+    border:2px dotted #000;
+}
+        
+#myForm img{
+    float:right;
+}
+        
+#myForm div:hover{
+    border:1px dotted #D9D9D9;
+}
+  
+/*
+#id_1{
+    pointer-events: none;
+}
+*/
+        
+input[type="text"],
+select,
+textarea
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+select
+{
+    pointer-events: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 30px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+label{
+    pointer-events: none;
+    display:inline-block;
+    background-color:#F7F7F7;
+    width: 100%;
+    padding:4px 11px;
+    font-family:Arial;
+    font-size: 23px;
+    padding-left: 10%;
+}
+label:last-child{
+    margin-bottom: 30px;
+}
+input[type="text"]:focus,
+select:focus,
+textarea:focus
+{
+    background: #d2d9dd;
+}
+        
+#myForm p{
+    font: 120% Arial, Helvetica, sans-serif;
+}
+        
+.NameStyle input[type="text"]{
+    width: 30%;
+    margin-right: 1%;
+}
+.NameStyle input[type="text"]:last-child{
+    width: 68%;
+}
+ 
+.AddressStyle input[type="text"]{
+    margin-bottom: 4px;
+}
+
+.IdentifyStyle select{
+    width: 30%;
+    margin-right: 1%;
+}  
+.IdentifyStyle input[type="text"]{
+    width: 68%;
+} 
+        
+.clearSignatureStyle{
+    float: right;
+    pointer-events: none;
+    margin-top: 12%;
+}
+        
+.signatureStyle input[type="text"]{
+    padding: 50px;
+    width: 80%;
+}
+        
+.sectionStyle{
+    padding-top: 50px;
+    text-align: center;
+    font: 200% Arial, Helvetica, sans-serif;
+}
+        
+input[type = button]{
+    margin-left: 40%;
+    margin-top: 12px;
+	width:100px;
+    margin-bottom: 30px;
+}
+
+#myForm div{
+    margin-bottom: 5px;
+}
+.home{
+    margin-top: 6px;
+    margin-left: 6px;
+	background-color:#D9D9D9;
+	color:#000;
+}
+/*createDiv style*/
+.form-style-6{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 200px;
+    padding: 16px;
+    background: #F7F7F7;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    margin-bottom: 10%;
+}
+.form-style-6 h1{
+    background: #43D1AF;
+    padding: 1px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: #2EBC99;
+} 
