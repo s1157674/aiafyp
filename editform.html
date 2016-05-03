@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Create Form</title>
+    <link href="bootstrap/bootstrap.css" rel="stylesheet">
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery-fsortable.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/editForm.js"></script>
+    <link href="css/editForm.css" rel="stylesheet">
+</head>
+    
+<body style="background-color: #D9d9d9;">
+<div data-role="header" id='header' data-theme="a" style="margin-bottom:30px;">
+    <h1>Edit Form</h1>
+    <a onclick="location.href='homepage.html'" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">Back</a>
+</div>  
+    
+    <div id="choose">
+        
+    </div>
+    
+<div id="edit" style="height:auto;" class="container">
+<div style="height:auto;background-color:#ffffff;" class="row">
+        <div class="col-md-3" style="height:600px;background-color: #ffffff;overflow: scroll;border-right:1px dotted #D9D9D9;">
+            <h1 class="text-center">Form Elements</h1>
+                <h4>FORM FIELDS</h4>
+                <button onclick="SingleLineTextElement()">Single Line Text</button>
+                <button onclick="MultiLineTextElement()">Multi Line Text</button>
+                <button onclick="CheckBoxElement()">CheckBox</button>    
+                <button onclick="SelectElement()">Select Element</button>
+                <button onclick="RadioElement()">Radio</button>
+                <button onclick="SectionElement()">Section Break</button>
+            <hr>
+                <h4>Standard FORM FIELDS</h4>
+                <button onclick="NameElement()">Name</button>
+                <button onclick="AddressElement()">Address</button>
+                <button onclick="EmailElement()">Email</button>
+                <button onclick="IdentifyElement()">HKID/Passport</button>
+                <button onclick="DateElement()">Date</button>
+                <button onclick="SignElement()">Signature</button>
+        </div>
+
+        <div class="col-md-9" style="background-color: #ffffff;">
+            <h2><span id="FormName" onclick="createDiv(this.tagName, this.id)">Your Dynamic Form!</span></h2>
+        <form action="#" method="get" id="mainform">
+        <span id="myForm">
+        </span>
+        <p></p>
+        <input type="button" onclick="create()" value="Submit"></input>
+        </form>
+        <div id='MyDiv' style="opacity:0;" class="form-style-6">
+        </div>
+        </div>
+</div>
+</div>
+
+</html>

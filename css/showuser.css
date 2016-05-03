@@ -1,0 +1,94 @@
+         body{
+			font-size:x-large;
+			background-image:url(../image/background.jpg);
+		}
+		#q1{	
+		}
+		table{
+			border: 2px solid black;
+			border-collapse:collapse;
+			text-align:center;
+		}
+		thead
+		{
+			font-weight: 800;
+		}
+		tr,td{
+			border: 1px solid black;
+		}
+		#q2{
+			position: absolute;
+			top: 51%;
+			left: 38%;
+			color: blue;
+		}
+       #q3
+      {
+	     position: absolute;
+	     left: 85%;
+	     top:5%;
+       }
+       #q7{
+         position: absolute;
+	     left: 85%;
+	     top:8%;
+       }
+       #q5{
+         position: absolute;
+	     left: 85%;
+	     top:11%;
+	  
+       }
+       #q6{
+         position: absolute;
+	     left: 85%;
+	     top:14%;
+	  
+       }
+      #q4{
+         position: absolute;
+	     left: 85%;
+	     top:17%;
+	  
+       }
+       #find
+       {
+       	     position: absolute;
+       		 left: 68%;
+	         top: 25%;
+       }
+
+      #fd
+     {
+	        background:url(../image/cx1.png) no-repeat;
+            width:40px;
+            height:40px;
+            position: absolute;
+            left: 102%;
+            top: -2%;
+      }
+      #fd1
+      {
+      	height: 33px;
+      	font-size:  large;
+      	color: gray;
+      }
+
+        #q44 {
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        #q44 {
+            font-family: "微软雅黑";
+            margin-left: 1%;
+            width: 32%;
+            outline:none;
+            height:28px ;
+            font-size: 18px;
+            line-height: 28px;
+            background-color: rgba(255,255,255,0.7);
+            box-shadow: 1px 2px 25px #AEA79F;
+            border-radius:0 15px 15px 0;
+            border:none;
+        }
+     

@@ -1,0 +1,140 @@
+html
+{
+	margin:0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	font-family: "微软雅黑";
+	margin:0;
+	padding: 0;
+	height: 100%;
+/*	background-image: url(../image/background.jpg);*/
+	background-size: 100% 100%;
+}
+
+form {
+	position:absolute;
+	top:30%;
+	left:30%;
+	width: 40%;
+	height:35%;
+	border-radius: 25px;
+	box-shadow: 1px 2px 25px #AEA79F;
+}
+
+#q1 {
+	width: 100%;
+	height: 100%;
+
+}
+
+#q2 {
+    margin-top: 45px;
+	width: 100%;
+	height: 35px;
+/*	background-color: #E7EFFF;*/
+}
+
+#q3 {
+    background: #ff0000;
+    padding: 25px 20px 25px 20px;
+    opacity: 0.9;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    font-size: 40px;
+    margin-left: -45px;
+    color: #fff;
+    margin-top: -70px;
+}
+
+#q31 {
+	margin-top: 2%;
+	width:100% ;
+	text-align: center;
+	font-size: 15px;
+}
+
+#q4 {
+	margin-left: 13%;
+	margin-top: 2%;
+	width:70%;
+	text-align: center;
+}
+
+#q41,
+#q42 {
+	border: 1px solid #999999;
+	height: 22px;
+	font-size: 15px;
+	border-radius: 10px;
+	text-indent: 10px;
+	outline:none;
+	width: 80%;
+}
+
+select{
+	border: 1px solid #999999;
+	height: 25px;
+	font-size: 15px;
+	border-radius: 10px;
+	text-indent: 10px;
+	outline:none;
+	width: 80%;
+    margin-left: 6%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#q43,
+#q44 {
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+#q43 {
+	font-family: "微软雅黑";
+	width: 32%;
+	outline:none;
+	height:28px ;
+	font-size: 18px;
+	line-height: 28px;
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 1px 2px 25px #AEA79F;
+	border-radius:15px;
+	border:none;
+    margin-left: 6%;
+}
+
+#forgotPassword {
+	font-family: "微软雅黑";
+	margin-left: 1%;
+	width: 32%;
+	outline:none;
+	height:28px ;
+	font-size: 18px;
+	line-height: 28px;
+	color: rgba(0,0,0,0.5);
+    margin-left: 6%;
+}
+
+#forgotPassword:hover,
+#q43:hover
+{
+    color: #ff0000;
+}
+
+#q5 {
+	text-indent: 8px;
+	font-size: 15px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus
+{
+    box-shadow: 0 0 5px #ff0000;
+    border: 1px solid #ff0000;
+}

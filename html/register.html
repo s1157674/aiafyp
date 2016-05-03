@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		    <link href="bootstrap/bootstrap.css" rel="stylesheet">
+            <script src="bootstrap/jquery.min.js"></script>
+           <script src="bootstrap/bootstrap.min.js"></script>
+		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<title>register</title>
+        <script>
+            function GoHome(){
+                if (confirm("Are you sure to quit?\nAll record will reset!") == true) {
+                    location.href = "../homepage.html";
+                }else{
+
+                }
+            }
+        </script>
+	</head>
+	<body >
+        <a onclick='GoHome()'><input  type="button" id="q44" value="Back"/> </a>
+		<div id="q1">
+			<div id="q11"align="center"><font id="q12">Welcome to register</font></div>
+		<form id="q2" action="../php/checkregister.php" method="post">
+            <table  class="table-striped table-hover"   >
+                <tr>
+                   <td  class="col-lg-5"><font color="red">*</font>Employee Level：</td>	
+                   <td  >
+                   	<select name="classes">
+                          <option value="Staff">Staff</option>
+                            <option value="Manager">Manager</option>
+                    </select>
+                    </td>
+                   <td ><font size='3'>please choose the user level</font></td>	
+            	</tr>
+            	<tr>
+                   <td  class="col-lg-5" ><font color="red">*</font>Employee Name：</td>	
+                   <td   ><input type="text" name="username" size="30"/></td>
+                   <td   ><font size='3'>can not null</font></td>	
+            	</tr>
+            	 <tr>
+                   <td  class="col-lg-5" ><font color="red">*</font>Password：</td>	
+                   <td   ><input type="password" name="password" size="30"/></td>
+                   <td   ><font size='3'>at least 3 words</font></td>	
+            	</tr>
+                <tr>
+                   <td   class="col-lg-5"><font color="red">*</font>Confirm Password：</td>	
+                   <td  ><input type="password" name="repassword" size="30"/></td>
+                   <td  ><font size='3'>input password again</font></td>	
+            	</tr>
+                <tr>
+                   <td   class="col-lg-5"><font color="red">*</font>Gender：</td>	
+                   <td  >
+                   	<select name="sex">
+                          <option value="M">M</option>
+                          <option value="F">F</option>
+                    </select>
+                    </td>
+                   <td  ><font size='3'>please choose the gender</font></td>	
+            	</tr>
+
+            	 <tr>
+                   <td    class="col-lg-5"><font color="red">*</font>Email：</td>	
+                   <td  ><input type="email" name="email" size="30"/></td>
+                   <td ><font size='3'>enter your email</font></td>	
+            	</tr>
+                <tr>
+                   <td  ><font color="red">*</font>tel：</td>	
+                   <td   ><input type="tel" name="phone" size="30"/></td>
+                   <td    ><font size='3'>enter your tel</font></td>	
+            	</tr>
+            	<tr   align="center" width="">
+            		
+            		<td colspan="3">
+            			<input id="q31" type="submit" value="Register" />
+            			<input id="q32" type="reset" value="Reset" />
+            		</td>   
+            		     		
+            	</tr>
+            </table>
+		</form>
+		<div id="q3"></div>
+		</div>
+	</body>
+</html>
